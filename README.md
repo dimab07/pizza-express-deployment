@@ -1,13 +1,21 @@
 # pizza-express-deployment
-## Pizza-Express application based on Node.js and Redis db deployment
+## Automatic deployment of Pizza-Express application
 
 ### Description
+Automatic deployment of Pizza-Express application that is based on Node.js and Redis database.
+
+### About the make-self-extract archive file
 The make-self-extract archive file `pizza_express_deployment.run` contains inside the `pizza_express_deployment.sh` script and the `docker-compose.yml`.
 You can extract the `pizza_express_deployment.run` archive by running it with `--keep` and `--noexec` parameters:
 ```
 # sh pizza_express_deployment.run --keep --noexec
 ```
-It will extract the `docker-compose` directory.
+It will extract the `pizza-compose` directory.
+
+You can read how to create and manipulate with the make-self-extract archive on:
+[Make-self-extract archive file](https://makeself.io/)
+[GitHub project](https://github.com/megastep/makeself)
+
 
 ### How to run the Pizza-Express deployment:
 
