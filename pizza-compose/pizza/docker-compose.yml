@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  express:
+    image: dimab07/pizza-express
+    networks:
+      - new_net
+    depends_on:
+      - redis
+    ports:
+      - "8081:3000"
+
+  redis:
+    image: dimab07/pizza-redis
+    networks:
+      new_net:
+        aliases:
+          - pizza-redis
+
+networks:
+  new_net: {}
