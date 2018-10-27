@@ -1,0 +1,7 @@
+I built the Pizza-Express from the Ubuntu 18.04 image, because the node.js image from the top is much bigger.
+The Redis db server image I pulled from the top, then re-tagged and pushed it to the same repository with the
+Pizza-Express image. In this way the images are placed together.
+
+Images location on Docker Hub:
+  docker.io/dimab07/pizza-redis
+  docker.io/dimab07/pizza-express
