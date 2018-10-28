@@ -48,6 +48,7 @@ The deployment script is verifying these prerequisites.
 
 ### Additional information about the project on GitHub and DockerHub:
 
-1. The Dockerfile of pizza-express image is located in the 'pizza-express-docker-image' directory of the project.
-2. The images location on DockerHub:
+1. The `docker-compose.yml` is located in the path `pizza-compose/pizza`. 
+2. The `Dockerfile` of the `pizza-express` image is located in the `pizza-express-docker-image` directory of the project.
+3. The images location on DockerHub:
   (`docker.io/dimab07/pizza-redis`), (`docker.io/dimab07/pizza-express`)
