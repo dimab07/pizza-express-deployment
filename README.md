@@ -13,7 +13,7 @@ You can extract the `pizza_express_deployment.run` archive by running it with `-
 It will extract the `pizza-compose` directory.
 
 You can read how to create and manipulate with the make-self-extract archive on:
-[Make-self-extract archive file](https://makeself.io/)
+[Make-self-extract archive file](https://makeself.io/) and 
 [GitHub project](https://github.com/megastep/makeself)
 
 
@@ -45,5 +45,5 @@ The deployment script is verifying these prerequisites.
 
 1. The Dockerfile of pizza-express image is located in the 'pizza-express-docker-image' directory of the project.
 2. The images location on DockerHub:
-  `docker.io/dimab07/pizza-redis`
-  `docker.io/dimab07/pizza-express`
+  (`docker.io/dimab07/pizza-redis`) 
+  (`docker.io/dimab07/pizza-express`)
