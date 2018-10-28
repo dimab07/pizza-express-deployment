@@ -1,8 +1,8 @@
 # pizza-express-deployment
 ## Automatic deployment of Pizza-Express application
 
-### Description
-Automatic deployment of Pizza-Express application that is based on Node.js and Redis database.
+### Brief description:
+This project was created to deploy of Pizza-Express application automatically. Pizza-Express application is based on Node.js and Redis database.
 
 ### About the make-self-extract archive file
 The make-self-extract archive file `pizza_express_deployment.run` contains inside the `pizza_express_deployment.sh` script and the `docker-compose.yml`.
@@ -45,7 +45,5 @@ The deployment script is verifying these prerequisites.
 
 1. The Dockerfile of pizza-express image is located in the 'pizza-express-docker-image' directory of the project.
 2. The images location on DockerHub:
-```
-   docker.io/dimab07/pizza-redis
-   docker.io/dimab07/pizza-express
-```
+  `docker.io/dimab07/pizza-redis`
+  `docker.io/dimab07/pizza-express`
