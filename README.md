@@ -29,6 +29,11 @@ Or you can set an executable permissions and run it directly:
 # ./pizza_express_deployment.run
 ```
 
+The deployment script `pizza_express_deployment.sh` is logging its runtime status to the log:
+```
+/tmp/pizza_express_deployment.log
+```
+
 After the deployment finished you can do an additional run of the uni-tests by the following command:
 ```
 # docker run --rm -ti --net pizza_new_net dimab07/pizza-express npm test
