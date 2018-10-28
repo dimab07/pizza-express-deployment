@@ -2,7 +2,7 @@
 ## Automatic deployment of Pizza-Express application
 
 ### Brief description:
-This project was created to deploy of Pizza-Express application automatically. Pizza-Express application is based on Node.js and Redis database.
+This project was created to deploy the Pizza-Express application automatically. Pizza-Express application is based on Node.js and Redis database.
 
 ### About the make-self-extract archive file
 The make-self-extract archive file `pizza_express_deployment.run` contains inside the `pizza_express_deployment.sh` script and the `docker-compose.yml`.
