@@ -51,4 +51,5 @@ The deployment script is verifying these prerequisites.
 1. The `docker-compose.yml` is located under the `pizza-compose/pizza` path. 
 2. The `Dockerfile` of the `pizza-express` image is located under the `pizza-express-docker-image` directory of the project.
 3. The images location on DockerHub:
-  (`docker.io/dimab07/pizza-redis`), (`docker.io/dimab07/pizza-express`)
+   * `docker.io/dimab07/pizza-redis`
+   * `docker.io/dimab07/pizza-express`
