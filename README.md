@@ -34,7 +34,7 @@ The deployment script `pizza_express_deployment.sh` is logging its runtime statu
 /tmp/pizza_express_deployment.log
 ```
 
-After the deployment finished you can do an additional run of the uni-tests by the following command:
+After the deployment is finished you can do an additional run of the uni-tests by the following command:
 ```
 # docker run --rm -ti --net pizza_new_net dimab07/pizza-express npm test
 ```
@@ -48,7 +48,7 @@ The deployment script is verifying these prerequisites.
 
 ### Additional information about the project on GitHub and DockerHub:
 
-1. The `docker-compose.yml` is located in the `pizza-compose/pizza` path. 
-2. The `Dockerfile` of the `pizza-express` image is located in the `pizza-express-docker-image` directory of the project.
+1. The `docker-compose.yml` is located under the `pizza-compose/pizza` path. 
+2. The `Dockerfile` of the `pizza-express` image is located under the `pizza-express-docker-image` directory of the project.
 3. The images location on DockerHub:
   (`docker.io/dimab07/pizza-redis`), (`docker.io/dimab07/pizza-express`)
